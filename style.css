@@ -94,3 +94,19 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
+@media (max-width: 670px) {
+  nav {
+    margin-bottom: 5px;
+  }
+
+  h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  h2,
+  h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+}
